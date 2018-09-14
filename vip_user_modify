@@ -1,0 +1,30 @@
+D:\afx\admin\affiliate_fc.php      查询优化显示一个月内的订单数据
+-----------------------------------------------------------------------
+
+order_id, goods_id, goods_name, goods_sn, product_id, goods_number, market_price, 
+goods_price, commission_rate, goods_attr, is_real, extension_code, parent_id, is_gift,
+freight, tid,shipping_fee, model_attr, goods_attr_id, ru_id, shopping_fee, warehouse_id, area_id, is_distribution, drp_money
+
+
+
+
+
+order_id, goods_id, goods_name, goods_sn, product_id, goods_number, market_price, goods_price,commission_rate, goods_attr, is_real, extension_code, parent_id, is_gift, freight,tid,shipping_fee,model_attr, goods_attr_id, ru_id, shopping_fee, warehouse_id, area_id,
+
+
+
+D:\afx\mobile\app\Modules\User\Controllers\OrderController.php   //ecs_user_vip_apply  insert操作
+
+D:\afx\mobile\app\Modules\Flow\Controllers\IndexController.php   //ecs_order_goods    insert操作 is_vip_product
+
+dsc_order_goods    新增字段  is_vip_product   tinyint 1 0  允许空值
+dsc_goods          新增字段  is_vip_product   tinyint 1 0  允许空值
+
+D:\afx\admin\goods.php    按钮操作
+D:\afx\admin\templates\goods_info.dwt   页面增加 购买成为vip 按钮
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
